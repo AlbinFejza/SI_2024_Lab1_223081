@@ -1,0 +1,37 @@
+git push origin mastercd C:\Users\Albin\Desktop\SI_2024_lab1_223081
+git init
+git remote add origin https://github.com/AlbinFejza SI_2024_lab1_223081.git
+git add README.md
+git commit -m "Initial commit"
+git push origin mastergit add SILab1Main.java
+git add SILab1_1.java
+git add SILab1_2.java
+git commit -m "Starter code"
+git push origin master
+git checkout master
+git checkout -b bug1
+git checkout -b bug2
+git checkout bug1
+git add SILab1_1.java
+git commit -m "Fix wrong condition in filterOddLengthStrings"
+git push origin bug1
+git checkout bug2
+add SILab1_2.java
+git commit -m "Fix wrong condition in makeBigStringFrom."
+git push origin bug2
+git checkout bug1 
+$ git merge bug1
+Merge made by the 'ort' strategy.
+ SILab1Main.java | 3 ++-
+ SILab1_1.java   | 2 +-
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+git fetch origin
+git pull origin master
+git checkout bug2
+Auto-merging SILab1Main.java
+CONFLICT (content): Merge conflict in SILab1Main.java
+Automatic merge failed; fix conflicts and then commit the result.
+
+
+
+
